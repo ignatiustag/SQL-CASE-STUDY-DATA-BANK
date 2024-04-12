@@ -37,7 +37,7 @@ ORDER BY 2 DESC;
 ```
 <details><summary>Query Result</summary>
 
-![alt text](<Screenshot (62).png>)
+![alt text](<.images/Screenshot (62).png>)
 </details>
 
 ## Option 2: Data is allocated on the average amount of money kept in the account in the previous 30 days
@@ -78,7 +78,7 @@ ORDER BY 2 DESC;
 ```
 <details><summary>Query Result</summary>
 
-![alt text](<Screenshot (64).png>)
+![alt text](<.images/Screenshot (64).png>)
 </details>
 
 ## Option 3: Data is updated real-time
@@ -102,7 +102,7 @@ ORDER BY 2 DESC;
 ```
 <details><summary>Query Result</summary>
 
-![alt text](<Screenshot (66).png>)
+![alt text](<.images/Screenshot (66).png>)
 </details>
 
 ## Observations/Interpretation*

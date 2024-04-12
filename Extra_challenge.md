@@ -28,6 +28,6 @@ ORDER BY 2 DESC;
 ```
 <details><summary>Query Result</summary>
 
-![alt text](<Screenshot (68)-1.png>)
+![alt text](<.images/Screenshot (68).png>)
 </details>
 
