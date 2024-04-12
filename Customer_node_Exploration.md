@@ -11,7 +11,7 @@ FROM customer_nodes;
 ```
 <details><summary>Query Result</summary>
 
-![alt text](<Screenshot (42).png>)
+![alt text](<.images/Screenshot (42).png>)
 </details>
 
 ## 2. What is the number of nodes per region?
@@ -28,7 +28,7 @@ ORDER BY number_of_nodes DESC;
 ```
 <details><summary>Query Result</summary>
 
-![alt text](<Screenshot (44).png>)
+![alt text](<.images/Screenshot (44).png>)
 </details>
 
 ## 3. How many customers are allocated to each region?
@@ -44,7 +44,7 @@ ORDER BY Number_of_Customers Desc;
 ```
 <details><summary>Query Result</summary>
 
-![alt text](<Screenshot (46).png>)
+![alt text](<.images/Screenshot (46).png>)
 </details>
 
 ## 4. How many days on average are customers reallocated to a different node?
@@ -65,7 +65,7 @@ WHERE next_start_date IS NOT NULL;
 ```
 <details><summary>Query Result</summary>
 
-![alt text](<Screenshot (48).png>)
+![alt text](<.images/Screenshot (48).png>)
 </details>
 
 ## 5. What is the median, 80th and 95th percentile for this same reallocation days metric for each region?
@@ -93,7 +93,7 @@ GROUP BY r.region_name;
 ```
 <details><summary>Query Result</summary>
 
-![alt text](<Screenshot (74).png>)
+![alt text](<.images/Screenshot (74).png>)
 </details>
 
 ## Observations/Interpretation*

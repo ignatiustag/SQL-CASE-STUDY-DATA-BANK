@@ -11,7 +11,7 @@ ORDER BY Total_amount DESC;
 ```
 <details><summary>Query Result</summary>
 
-![alt text](<Screenshot (51).png>)
+![alt text](<.images/Screenshot (51).png>)
 </details>
 
 ## 2. What is the average total historical deposit counts and amounts for all customers?
@@ -33,7 +33,7 @@ FROM Historical_Deposits;
 ```
 <details><summary>Query Result</summary>
 
-![alt text](<Screenshot (53).png>)
+![alt text](<.images/Screenshot (53).png>)
 </details>
 
 ## 3. For each month - how many Data Bank customers make more than 1 deposit and either 1 purchase or 1 withdrawal in a single month?
@@ -66,7 +66,7 @@ ORDER BY 1,2;
 ```
 <details><summary>Query Result</summary>
 
-![alt text](<Screenshot (72).png>)
+![alt text](<.images/Screenshot (72).png>)
 </details>
 
 ## 4. What is the closing balance for each customer at the end of the month?
@@ -100,7 +100,7 @@ ORDER BY 1, 2, 3;
 <details><summary>Query Result</summary>
 Below is a sample of the 12 rows of the query.
 
-![alt text](<Screenshot (58).png>)
+![alt text](<.images/Screenshot (58).png>)
 </details>
 
 ## 5. What is the percentage of customers who increase their closing balance by more than 5%?
@@ -137,7 +137,7 @@ FROM (SELECT COUNT(*) AS total_customers FROM first_last_closing_balance) AS tot
 ```
 <details><summary>Query Result</summary>
 
-![alt text](<Screenshot (60).png>)
+![alt text](<.images/Screenshot (60).png>)
 </details>
 
 ## Observations/Interpretation*
